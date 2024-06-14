@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Media Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="media-player">
+        <div class="image-container">
+            <img src="/500x500.jpg" alt="Album Art" class="album-art">
+        </div>
+        <div class="info">
+            <h2 id="song-title">Decpacito</h2>
+            <p id="artist-name">Luis Fonsi - Despacito ft. Daddy Yankee</p>
+        </div>
+        <input type="range" id="progress-bar" class="progress-bar" value="0" max="100">
+        <div class="controls">
+            <button id="prev" class="control-btn">⏮</button>
+            <button id="play" class="control-btn">⏯</button>
+            <button id="next" class="control-btn">⏭</button>
+        </div>
+        <audio id="audio-player" src="/Luis Fonsi - Despacito ft. Daddy Yankee.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
